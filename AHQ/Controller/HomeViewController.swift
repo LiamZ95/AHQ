@@ -25,26 +25,26 @@ class HomeViewController: UIViewController {
         let navheight = (navigationController?.navigationBar.frame.size.height ?? 0) + UIApplication.shared.statusBarFrame.size.height
 
         
-        let vc1 = FeedViewController()
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        
+//        let vc1 = FeedViewController()
+//        let vc2 = MessageViewController()
+        let vc1 = storyBoard.instantiateViewController(withIdentifier: "FeedViewController")
+        let vc2 = storyBoard.instantiateViewController(withIdentifier: "MessageViewController")
+        
         vc1.title = "Feed"
-
-        let vc2 = MessageViewController()
         vc2.title = "Message"
         
         controllerArray.append(vc1)
         controllerArray.append(vc2)
         
-        //        let parameters: [CAPSPageMenuOption] = [
-        //            .scrollMenuBackgroundColor(UIColor.red),
-        //            .viewBackgroundColor(UIColor.purple),
-        //            .selectionIndicatorColor(UIColor.yellow,
-        //            .BottomMenuHairlineColor(UIColor(red: 70.0/255.0, green: 70.0/255.0, blue: 80.0/255.0, alpha: 1.0)),
-        //            .MenuHeight(40.0),
-        //            .MenuItemWidth(100.0),
-        //            .CenterMenuItems(true),
-        //            .SelectedMenuItemLabelColor(UIColor.blueColor())]
+        let parameters: [CAPSPageMenuOption] = [
+            .menuItemSeparatorWidth(4.3),
+            .useMenuLikeSegmentedControl(true),
+            .menuItemSeparatorPercentageHeight(0.1)
+            ]
         
-        pageMenu = CAPSPageMenu(viewControllers: controllerArray, frame: CGRect(x: 0.0, y: navheight, width: self.view.frame.width, height: self.view.frame.height), pageMenuOptions: nil)
+        pageMenu = CAPSPageMenu(viewControllers: controllerArray, frame: CGRect(x: 0.0, y: navheight, width: self.view.frame.width, height: self.view.frame.height), pageMenuOptions: parameters)
         
         self.view.addSubview(pageMenu!.view)
         

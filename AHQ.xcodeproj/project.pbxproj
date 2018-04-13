@@ -17,7 +17,6 @@
 		0CB3D4CC2080664100DD8AE9 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4CB2080664100DD8AE9 /* FeedViewController.swift */; };
 		0CB3D4CE2080664C00DD8AE9 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4CD2080664C00DD8AE9 /* MessageViewController.swift */; };
 		0CB3D4D02080669800DD8AE9 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4CF2080669800DD8AE9 /* PageViewController.swift */; };
-		0CB3D4D220806DB600DD8AE9 /* HomeContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D120806DB600DD8AE9 /* HomeContainerViewController.swift */; };
 		0CB3D4DB20808AD900DD8AE9 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D420808AD900DD8AE9 /* MenuItemView.swift */; };
 		0CB3D4DC20808AD900DD8AE9 /* CAPSPageMenu+UIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D520808AD900DD8AE9 /* CAPSPageMenu+UIConfiguration.swift */; };
 		0CB3D4DD20808AD900DD8AE9 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D620808AD900DD8AE9 /* CAPSPageMenu+UIScrollViewDelegate.swift */; };
@@ -42,7 +41,6 @@
 		0CB3D4CB2080664100DD8AE9 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		0CB3D4CD2080664C00DD8AE9 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		0CB3D4CF2080669800DD8AE9 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
-		0CB3D4D120806DB600DD8AE9 /* HomeContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContainerViewController.swift; sourceTree = "<group>"; };
 		0CB3D4D420808AD900DD8AE9 /* MenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
 		0CB3D4D520808AD900DD8AE9 /* CAPSPageMenu+UIConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIConfiguration.swift"; sourceTree = "<group>"; };
 		0CB3D4D620808AD900DD8AE9 /* CAPSPageMenu+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				0CB3D4CB2080664100DD8AE9 /* FeedViewController.swift */,
 				0CB3D4CD2080664C00DD8AE9 /* MessageViewController.swift */,
 				0CB3D4CF2080669800DD8AE9 /* PageViewController.swift */,
-				0CB3D4D120806DB600DD8AE9 /* HomeContainerViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -204,7 +201,6 @@
 				0CB3D4CC2080664100DD8AE9 /* FeedViewController.swift in Sources */,
 				0CB3D48F20802EB000DD8AE9 /* HomeViewController.swift in Sources */,
 				0CB3D4DE20808AD900DD8AE9 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */,
-				0CB3D4D220806DB600DD8AE9 /* HomeContainerViewController.swift in Sources */,
 				0CB3D4DD20808AD900DD8AE9 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */,
 				0CB3D4CE2080664C00DD8AE9 /* MessageViewController.swift in Sources */,
 				0CB3D4DB20808AD900DD8AE9 /* MenuItemView.swift in Sources */,
