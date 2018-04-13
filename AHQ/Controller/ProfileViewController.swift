@@ -9,20 +9,22 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
-
+    
     @IBOutlet weak var menuButton: UIBarButtonItem!
+    
+    var pageMenu: CAPSPageMenu?
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func viewDidAppear(_ animated: Bool) {
         
-        if self.revealViewController() != nil {
-            menuButton.target = revealViewController()
-            menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
-            view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-        }
+//        if self.revealViewController() != nil {
+//            menuButton.target = revealViewController()
+//            menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
+//            view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+//        }
     }
 
 

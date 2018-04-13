@@ -14,6 +14,17 @@
 		0CB3D49620802EB200DD8AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB3D49520802EB200DD8AE9 /* Assets.xcassets */; };
 		0CB3D49920802EB200DD8AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB3D49720802EB200DD8AE9 /* LaunchScreen.storyboard */; };
 		0CB3D4A420802FAE00DD8AE9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4A220802FAE00DD8AE9 /* SWRevealViewController.m */; };
+		0CB3D4CC2080664100DD8AE9 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4CB2080664100DD8AE9 /* FeedViewController.swift */; };
+		0CB3D4CE2080664C00DD8AE9 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4CD2080664C00DD8AE9 /* MessageViewController.swift */; };
+		0CB3D4D02080669800DD8AE9 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4CF2080669800DD8AE9 /* PageViewController.swift */; };
+		0CB3D4D220806DB600DD8AE9 /* HomeContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D120806DB600DD8AE9 /* HomeContainerViewController.swift */; };
+		0CB3D4DB20808AD900DD8AE9 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D420808AD900DD8AE9 /* MenuItemView.swift */; };
+		0CB3D4DC20808AD900DD8AE9 /* CAPSPageMenu+UIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D520808AD900DD8AE9 /* CAPSPageMenu+UIConfiguration.swift */; };
+		0CB3D4DD20808AD900DD8AE9 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D620808AD900DD8AE9 /* CAPSPageMenu+UIScrollViewDelegate.swift */; };
+		0CB3D4DE20808AD900DD8AE9 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D720808AD900DD8AE9 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */; };
+		0CB3D4DF20808AD900DD8AE9 /* CAPSPageMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D820808AD900DD8AE9 /* CAPSPageMenuConfiguration.swift */; };
+		0CB3D4E020808AD900DD8AE9 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D920808AD900DD8AE9 /* CAPSPageMenu.swift */; };
+		0CB3D4E120808AD900DD8AE9 /* CAPSPageMenu+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4DA20808AD900DD8AE9 /* CAPSPageMenu+Options.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +39,17 @@
 		0CB3D4A120802FAD00DD8AE9 /* AHQ-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AHQ-Bridging-Header.h"; sourceTree = "<group>"; };
 		0CB3D4A220802FAE00DD8AE9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		0CB3D4A320802FAE00DD8AE9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		0CB3D4CB2080664100DD8AE9 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		0CB3D4CD2080664C00DD8AE9 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		0CB3D4CF2080669800DD8AE9 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		0CB3D4D120806DB600DD8AE9 /* HomeContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContainerViewController.swift; sourceTree = "<group>"; };
+		0CB3D4D420808AD900DD8AE9 /* MenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		0CB3D4D520808AD900DD8AE9 /* CAPSPageMenu+UIConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIConfiguration.swift"; sourceTree = "<group>"; };
+		0CB3D4D620808AD900DD8AE9 /* CAPSPageMenu+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		0CB3D4D720808AD900DD8AE9 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
+		0CB3D4D820808AD900DD8AE9 /* CAPSPageMenuConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenuConfiguration.swift; sourceTree = "<group>"; };
+		0CB3D4D920808AD900DD8AE9 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
+		0CB3D4DA20808AD900DD8AE9 /* CAPSPageMenu+Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+Options.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,7 @@
 		0CB3D48B20802EB000DD8AE9 /* AHQ */ = {
 			isa = PBXGroup;
 			children = (
+				0CB3D4D320808ABB00DD8AE9 /* CAPSPageMenu */,
 				0CB3D4A020802F2000DD8AE9 /* Controller */,
 				0CB3D48C20802EB000DD8AE9 /* AppDelegate.swift */,
 				0CB3D49220802EB000DD8AE9 /* Main.storyboard */,
@@ -78,8 +101,26 @@
 			children = (
 				0CB3D48E20802EB000DD8AE9 /* HomeViewController.swift */,
 				0CB3D49020802EB000DD8AE9 /* ProfileViewController.swift */,
+				0CB3D4CB2080664100DD8AE9 /* FeedViewController.swift */,
+				0CB3D4CD2080664C00DD8AE9 /* MessageViewController.swift */,
+				0CB3D4CF2080669800DD8AE9 /* PageViewController.swift */,
+				0CB3D4D120806DB600DD8AE9 /* HomeContainerViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		0CB3D4D320808ABB00DD8AE9 /* CAPSPageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0CB3D4D920808AD900DD8AE9 /* CAPSPageMenu.swift */,
+				0CB3D4DA20808AD900DD8AE9 /* CAPSPageMenu+Options.swift */,
+				0CB3D4D520808AD900DD8AE9 /* CAPSPageMenu+UIConfiguration.swift */,
+				0CB3D4D720808AD900DD8AE9 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */,
+				0CB3D4D620808AD900DD8AE9 /* CAPSPageMenu+UIScrollViewDelegate.swift */,
+				0CB3D4D820808AD900DD8AE9 /* CAPSPageMenuConfiguration.swift */,
+				0CB3D4D420808AD900DD8AE9 /* MenuItemView.swift */,
+			);
+			path = CAPSPageMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,9 +196,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CB3D49120802EB000DD8AE9 /* ProfileViewController.swift in Sources */,
+				0CB3D4DF20808AD900DD8AE9 /* CAPSPageMenuConfiguration.swift in Sources */,
+				0CB3D4E120808AD900DD8AE9 /* CAPSPageMenu+Options.swift in Sources */,
+				0CB3D4E020808AD900DD8AE9 /* CAPSPageMenu.swift in Sources */,
+				0CB3D4D02080669800DD8AE9 /* PageViewController.swift in Sources */,
 				0CB3D48D20802EB000DD8AE9 /* AppDelegate.swift in Sources */,
+				0CB3D4CC2080664100DD8AE9 /* FeedViewController.swift in Sources */,
 				0CB3D48F20802EB000DD8AE9 /* HomeViewController.swift in Sources */,
+				0CB3D4DE20808AD900DD8AE9 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */,
+				0CB3D4D220806DB600DD8AE9 /* HomeContainerViewController.swift in Sources */,
+				0CB3D4DD20808AD900DD8AE9 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */,
+				0CB3D4CE2080664C00DD8AE9 /* MessageViewController.swift in Sources */,
+				0CB3D4DB20808AD900DD8AE9 /* MenuItemView.swift in Sources */,
 				0CB3D4A420802FAE00DD8AE9 /* SWRevealViewController.m in Sources */,
+				0CB3D4DC20808AD900DD8AE9 /* CAPSPageMenu+UIConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
