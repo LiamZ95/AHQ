@@ -14,4 +14,5 @@ class TestCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var profileImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var otherLabel: UILabel!
+
 }
