@@ -24,6 +24,8 @@
 		0CB3D4DF20808AD900DD8AE9 /* CAPSPageMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D820808AD900DD8AE9 /* CAPSPageMenuConfiguration.swift */; };
 		0CB3D4E020808AD900DD8AE9 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D920808AD900DD8AE9 /* CAPSPageMenu.swift */; };
 		0CB3D4E120808AD900DD8AE9 /* CAPSPageMenu+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4DA20808AD900DD8AE9 /* CAPSPageMenu+Options.swift */; };
+		0CB3D4E32080E86900DD8AE9 /* TestCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4E22080E86900DD8AE9 /* TestCollectionViewController.swift */; };
+		0CB3D4E52081E7BF00DD8AE9 /* TestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4E42081E7BF00DD8AE9 /* TestCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		0CB3D4D820808AD900DD8AE9 /* CAPSPageMenuConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenuConfiguration.swift; sourceTree = "<group>"; };
 		0CB3D4D920808AD900DD8AE9 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
 		0CB3D4DA20808AD900DD8AE9 /* CAPSPageMenu+Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+Options.swift"; sourceTree = "<group>"; };
+		0CB3D4E22080E86900DD8AE9 /* TestCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewController.swift; sourceTree = "<group>"; };
+		0CB3D4E42081E7BF00DD8AE9 /* TestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 				0CB3D4A220802FAE00DD8AE9 /* SWRevealViewController.m */,
 				0CB3D49A20802EB200DD8AE9 /* Info.plist */,
 				0CB3D4A120802FAD00DD8AE9 /* AHQ-Bridging-Header.h */,
+				0CB3D4E42081E7BF00DD8AE9 /* TestCollectionViewCell.swift */,
 			);
 			path = AHQ;
 			sourceTree = "<group>";
@@ -102,6 +107,7 @@
 				0CB3D4CB2080664100DD8AE9 /* FeedViewController.swift */,
 				0CB3D4CD2080664C00DD8AE9 /* MessageViewController.swift */,
 				0CB3D4CF2080669800DD8AE9 /* PageViewController.swift */,
+				0CB3D4E22080E86900DD8AE9 /* TestCollectionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -205,6 +211,8 @@
 				0CB3D4CE2080664C00DD8AE9 /* MessageViewController.swift in Sources */,
 				0CB3D4DB20808AD900DD8AE9 /* MenuItemView.swift in Sources */,
 				0CB3D4A420802FAE00DD8AE9 /* SWRevealViewController.m in Sources */,
+				0CB3D4E32080E86900DD8AE9 /* TestCollectionViewController.swift in Sources */,
+				0CB3D4E52081E7BF00DD8AE9 /* TestCollectionViewCell.swift in Sources */,
 				0CB3D4DC20808AD900DD8AE9 /* CAPSPageMenu+UIConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

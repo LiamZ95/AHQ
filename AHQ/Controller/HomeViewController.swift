@@ -29,7 +29,7 @@ class HomeViewController: UIViewController {
         
 //        let vc1 = FeedViewController()
 //        let vc2 = MessageViewController()
-        let vc1 = storyBoard.instantiateViewController(withIdentifier: "FeedViewController")
+        let vc1 = storyBoard.instantiateViewController(withIdentifier: "TestCollectionViewController") as! UICollectionViewController
         let vc2 = storyBoard.instantiateViewController(withIdentifier: "MessageViewController")
         
         vc1.title = "Feed"
