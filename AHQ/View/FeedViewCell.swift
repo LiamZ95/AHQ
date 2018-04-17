@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TestCollectionViewCell: UICollectionViewCell {
+class FeedViewCell: UICollectionViewCell {
     
     @IBOutlet weak var contentLabel: UILabel!
     @IBOutlet weak var profileImageView: UIImageView!

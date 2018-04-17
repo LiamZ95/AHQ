@@ -12,8 +12,6 @@ class HomeViewController: UIViewController {
     
     var pageMenu : CAPSPageMenu?
     
-    @IBOutlet weak var menuButton: UIBarButtonItem!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupPages()
@@ -27,9 +25,7 @@ class HomeViewController: UIViewController {
         
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
         
-//        let vc1 = FeedViewController()
-//        let vc2 = MessageViewController()
-        let vc1 = storyBoard.instantiateViewController(withIdentifier: "TestCollectionViewController") as! UICollectionViewController
+        let vc1 = storyBoard.instantiateViewController(withIdentifier: "FeedViewController") as! UICollectionViewController
         let vc2 = storyBoard.instantiateViewController(withIdentifier: "MessageViewController")
         
         vc1.title = "Feed"

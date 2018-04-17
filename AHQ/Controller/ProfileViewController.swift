@@ -10,21 +10,48 @@ import UIKit
 
 class ProfileViewController: UIViewController {
     
-    @IBOutlet weak var menuButton: UIBarButtonItem!
-    
-    var pageMenu: CAPSPageMenu?
+    var profilePageMenu: CAPSPageMenu?
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupPages()
     }
     
-    override func viewDidAppear(_ animated: Bool) {
+    
+    func setupPages() {
+        var controllerArray: [UIViewController] = []
         
-//        if self.revealViewController() != nil {
-//            menuButton.target = revealViewController()
-//            menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
-//            view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-//        }
+        let navheight = (navigationController?.navigationBar.frame.size.height ?? 0) + UIApplication.shared.statusBarFrame.size.height
+        
+        
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        
+        let vc1 = storyBoard.instantiateViewController(withIdentifier: "RecentViewController")
+        let vc2 = storyBoard.instantiateViewController(withIdentifier: "BioViewController")
+        let vc3 = storyBoard.instantiateViewController(withIdentifier: "GoalViewController")
+        let vc4 = storyBoard.instantiateViewController(withIdentifier: "FocusViewController")
+        
+        vc1.title = "Recent"
+        vc2.title = "Bio"
+        vc3.title = "Goals"
+        vc4.title = "Foucs"
+        
+        controllerArray.append(vc1)
+        controllerArray.append(vc2)
+        controllerArray.append(vc3)
+        controllerArray.append(vc4)
+
+        
+        let parameters: [CAPSPageMenuOption] = [
+            .menuItemSeparatorWidth(4.3),
+            .useMenuLikeSegmentedControl(true),
+            .menuItemSeparatorPercentageHeight(0.1)
+        ]
+        
+        profilePageMenu = CAPSPageMenu(viewControllers: controllerArray, frame: CGRect(x: 0.0, y: navheight, width: self.view.frame.width, height: self.view.frame.height), pageMenuOptions: parameters)
+        
+        self.view.addSubview(profilePageMenu!.view)
+        
     }
 
 

@@ -14,7 +14,6 @@
 		0CB3D49620802EB200DD8AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB3D49520802EB200DD8AE9 /* Assets.xcassets */; };
 		0CB3D49920802EB200DD8AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB3D49720802EB200DD8AE9 /* LaunchScreen.storyboard */; };
 		0CB3D4A420802FAE00DD8AE9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4A220802FAE00DD8AE9 /* SWRevealViewController.m */; };
-		0CB3D4CC2080664100DD8AE9 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4CB2080664100DD8AE9 /* FeedViewController.swift */; };
 		0CB3D4CE2080664C00DD8AE9 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4CD2080664C00DD8AE9 /* MessageViewController.swift */; };
 		0CB3D4D02080669800DD8AE9 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4CF2080669800DD8AE9 /* PageViewController.swift */; };
 		0CB3D4DB20808AD900DD8AE9 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D420808AD900DD8AE9 /* MenuItemView.swift */; };
@@ -24,8 +23,13 @@
 		0CB3D4DF20808AD900DD8AE9 /* CAPSPageMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D820808AD900DD8AE9 /* CAPSPageMenuConfiguration.swift */; };
 		0CB3D4E020808AD900DD8AE9 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D920808AD900DD8AE9 /* CAPSPageMenu.swift */; };
 		0CB3D4E120808AD900DD8AE9 /* CAPSPageMenu+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4DA20808AD900DD8AE9 /* CAPSPageMenu+Options.swift */; };
-		0CB3D4E32080E86900DD8AE9 /* TestCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4E22080E86900DD8AE9 /* TestCollectionViewController.swift */; };
-		0CB3D4E52081E7BF00DD8AE9 /* TestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4E42081E7BF00DD8AE9 /* TestCollectionViewCell.swift */; };
+		0CB3D4E32080E86900DD8AE9 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4E22080E86900DD8AE9 /* FeedViewController.swift */; };
+		0CB3D4E52081E7BF00DD8AE9 /* FeedViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4E42081E7BF00DD8AE9 /* FeedViewCell.swift */; };
+		0CEC5F892084EC2300E6EE84 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC5F882084EC2300E6EE84 /* CalendarViewController.swift */; };
+		0CEC5F8B20857AF700E6EE84 /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC5F8A20857AF700E6EE84 /* RecentViewController.swift */; };
+		0CEC5F8D20857B3000E6EE84 /* BioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC5F8C20857B3000E6EE84 /* BioViewController.swift */; };
+		0CEC5F8F20857E8200E6EE84 /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC5F8E20857E8200E6EE84 /* GoalViewController.swift */; };
+		0CEC5F9120857EC000E6EE84 /* FocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC5F9020857EC000E6EE84 /* FocusViewController.swift */; };
 		A89C54562CCB9AB6662C133B /* Pods_AHQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25B4496C1632800A0AA872A /* Pods_AHQ.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +45,6 @@
 		0CB3D4A120802FAD00DD8AE9 /* AHQ-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AHQ-Bridging-Header.h"; sourceTree = "<group>"; };
 		0CB3D4A220802FAE00DD8AE9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		0CB3D4A320802FAE00DD8AE9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
-		0CB3D4CB2080664100DD8AE9 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		0CB3D4CD2080664C00DD8AE9 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		0CB3D4CF2080669800DD8AE9 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		0CB3D4D420808AD900DD8AE9 /* MenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
@@ -51,8 +54,13 @@
 		0CB3D4D820808AD900DD8AE9 /* CAPSPageMenuConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenuConfiguration.swift; sourceTree = "<group>"; };
 		0CB3D4D920808AD900DD8AE9 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
 		0CB3D4DA20808AD900DD8AE9 /* CAPSPageMenu+Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+Options.swift"; sourceTree = "<group>"; };
-		0CB3D4E22080E86900DD8AE9 /* TestCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewController.swift; sourceTree = "<group>"; };
-		0CB3D4E42081E7BF00DD8AE9 /* TestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewCell.swift; sourceTree = "<group>"; };
+		0CB3D4E22080E86900DD8AE9 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		0CB3D4E42081E7BF00DD8AE9 /* FeedViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewCell.swift; sourceTree = "<group>"; };
+		0CEC5F882084EC2300E6EE84 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		0CEC5F8A20857AF700E6EE84 /* RecentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
+		0CEC5F8C20857B3000E6EE84 /* BioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioViewController.swift; sourceTree = "<group>"; };
+		0CEC5F8E20857E8200E6EE84 /* GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
+		0CEC5F9020857EC000E6EE84 /* FocusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusViewController.swift; sourceTree = "<group>"; };
 		24BF56764A2653595E0FBEFF /* Pods-AHQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHQ.release.xcconfig"; path = "Pods/Target Support Files/Pods-AHQ/Pods-AHQ.release.xcconfig"; sourceTree = "<group>"; };
 		B96DEBC140EEB845E73484EC /* Pods-AHQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHQ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AHQ/Pods-AHQ.debug.xcconfig"; sourceTree = "<group>"; };
 		F25B4496C1632800A0AA872A /* Pods_AHQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,10 +120,14 @@
 			children = (
 				0CB3D48E20802EB000DD8AE9 /* HomeViewController.swift */,
 				0CB3D49020802EB000DD8AE9 /* ProfileViewController.swift */,
-				0CB3D4CB2080664100DD8AE9 /* FeedViewController.swift */,
 				0CB3D4CD2080664C00DD8AE9 /* MessageViewController.swift */,
 				0CB3D4CF2080669800DD8AE9 /* PageViewController.swift */,
-				0CB3D4E22080E86900DD8AE9 /* TestCollectionViewController.swift */,
+				0CB3D4E22080E86900DD8AE9 /* FeedViewController.swift */,
+				0CEC5F882084EC2300E6EE84 /* CalendarViewController.swift */,
+				0CEC5F8A20857AF700E6EE84 /* RecentViewController.swift */,
+				0CEC5F8C20857B3000E6EE84 /* BioViewController.swift */,
+				0CEC5F8E20857E8200E6EE84 /* GoalViewController.swift */,
+				0CEC5F9020857EC000E6EE84 /* FocusViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -137,7 +149,7 @@
 		0CEC5F862084BF9700E6EE84 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0CB3D4E42081E7BF00DD8AE9 /* TestCollectionViewCell.swift */,
+				0CB3D4E42081E7BF00DD8AE9 /* FeedViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -177,6 +189,7 @@
 				0CB3D48520802EB000DD8AE9 /* Sources */,
 				0CB3D48620802EB000DD8AE9 /* Frameworks */,
 				0CB3D48720802EB000DD8AE9 /* Resources */,
+				285DE24FF145DD969AB7E7C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +248,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		285DE24FF145DD969AB7E7C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AHQ/Pods-AHQ-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AHQ/Pods-AHQ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		639DBBB2C9EF45AC2807EA52 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -260,22 +291,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CEC5F8F20857E8200E6EE84 /* GoalViewController.swift in Sources */,
+				0CEC5F892084EC2300E6EE84 /* CalendarViewController.swift in Sources */,
 				0CB3D49120802EB000DD8AE9 /* ProfileViewController.swift in Sources */,
 				0CB3D4DF20808AD900DD8AE9 /* CAPSPageMenuConfiguration.swift in Sources */,
 				0CB3D4E120808AD900DD8AE9 /* CAPSPageMenu+Options.swift in Sources */,
 				0CB3D4E020808AD900DD8AE9 /* CAPSPageMenu.swift in Sources */,
 				0CB3D4D02080669800DD8AE9 /* PageViewController.swift in Sources */,
 				0CB3D48D20802EB000DD8AE9 /* AppDelegate.swift in Sources */,
-				0CB3D4CC2080664100DD8AE9 /* FeedViewController.swift in Sources */,
+				0CEC5F8B20857AF700E6EE84 /* RecentViewController.swift in Sources */,
 				0CB3D48F20802EB000DD8AE9 /* HomeViewController.swift in Sources */,
 				0CB3D4DE20808AD900DD8AE9 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */,
+				0CEC5F9120857EC000E6EE84 /* FocusViewController.swift in Sources */,
 				0CB3D4DD20808AD900DD8AE9 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */,
 				0CB3D4CE2080664C00DD8AE9 /* MessageViewController.swift in Sources */,
 				0CB3D4DB20808AD900DD8AE9 /* MenuItemView.swift in Sources */,
 				0CB3D4A420802FAE00DD8AE9 /* SWRevealViewController.m in Sources */,
-				0CB3D4E32080E86900DD8AE9 /* TestCollectionViewController.swift in Sources */,
-				0CB3D4E52081E7BF00DD8AE9 /* TestCollectionViewCell.swift in Sources */,
+				0CB3D4E32080E86900DD8AE9 /* FeedViewController.swift in Sources */,
+				0CB3D4E52081E7BF00DD8AE9 /* FeedViewCell.swift in Sources */,
 				0CB3D4DC20808AD900DD8AE9 /* CAPSPageMenu+UIConfiguration.swift in Sources */,
+				0CEC5F8D20857B3000E6EE84 /* BioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  FeedViewController.swift
+//  TestCollectionViewController.swift
 //  AHQ
 //
 //  Created by LIYU ZHANG on 13/4/18.
@@ -8,24 +8,37 @@
 
 import UIKit
 
+private let reuseIdentifier = "testCell"
+
 class FeedViewController: UICollectionViewController {
-    let cellId: String = "feedCellId"
+//    , UICollectionViewDelegateFlowLayout
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        collectionView?.backgroundColor = UIColor.brown
-        
-        collectionView?.register(UICollectionViewCell.self, forCellWithReuseIdentifier: cellId)
-        
+
+        // Register cell classes
+//        self.collectionView!.register(TestCollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+
     }
-    
+
+
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 5
+        return 10
     }
-    
+
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath)
+        // Configure the cell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! FeedViewCell
         
+        cell.nameLabel.text = "Peter"
+        cell.otherLabel.text = "13/04/2018"
+        cell.profileImageView.image = UIImage(named: "user")
+
         return cell
     }
+    
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+//        return CGSize(width: view.frame.width, height: 200)
+//    }
+
 }
