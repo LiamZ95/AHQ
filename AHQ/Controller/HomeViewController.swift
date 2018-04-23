@@ -15,8 +15,23 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupPages()
+        setupNavigationBar()
+        
     }
     
+    // initialize navigation bar
+    func setupNavigationBar() {
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+        self.navigationController?.navigationBar.tintColor = UIColor.white
+        self.title = "HOME"
+        // change navigation bar color
+        var colors = [UIColor]()
+        colors.append(UIColor(red: 201/255, green: 49/255, blue: 74/255, alpha: 1))
+        colors.append(UIColor(red: 142/255, green: 38/255, blue: 111/255, alpha: 1))
+        self.navigationController?.navigationBar.setGradientBackground(colors: colors)
+    }
+    
+    // function to initialize page menu
     func setupPages() {
         var controllerArray: [UIViewController] = []
         
@@ -37,7 +52,9 @@ class HomeViewController: UIViewController {
         let parameters: [CAPSPageMenuOption] = [
             .menuItemSeparatorWidth(4.3),
             .useMenuLikeSegmentedControl(true),
-            .menuItemSeparatorPercentageHeight(0.1)
+            .menuItemSeparatorPercentageHeight(0.1),
+            .menuHeight(50),
+            .scrollMenuBackgroundColor (UIColor(red: 142/255, green: 38/255, blue: 111/255, alpha: 1))
             ]
         
         pageMenu = CAPSPageMenu(viewControllers: controllerArray, frame: CGRect(x: 0.0, y: navheight, width: self.view.frame.width, height: self.view.frame.height), pageMenuOptions: parameters)

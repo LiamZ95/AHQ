@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C559660208C2B6000DA5B2D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C55965F208C2B6000DA5B2D /* Extensions.swift */; };
 		0CB3D48D20802EB000DD8AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D48C20802EB000DD8AE9 /* AppDelegate.swift */; };
 		0CB3D48F20802EB000DD8AE9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D48E20802EB000DD8AE9 /* HomeViewController.swift */; };
 		0CB3D49120802EB000DD8AE9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D49020802EB000DD8AE9 /* ProfileViewController.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C55965F208C2B6000DA5B2D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0CB3D48920802EB000DD8AE9 /* AHQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB3D48C20802EB000DD8AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CB3D48E20802EB000DD8AE9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C559661208DA7C300DA5B2D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0CB3D48020802EB000DD8AE9 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +108,7 @@
 		0CB3D48B20802EB000DD8AE9 /* AHQ */ = {
 			isa = PBXGroup;
 			children = (
+				0C559661208DA7C300DA5B2D /* Model */,
 				0CEC5F872084C70800E6EE84 /* Helper */,
 				0CEC5F862084BF9700E6EE84 /* View */,
 				0CB3D4D320808ABB00DD8AE9 /* CAPSPageMenu */,
@@ -157,6 +167,7 @@
 		0CEC5F872084C70800E6EE84 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				0C55965F208C2B6000DA5B2D /* Extensions.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -189,7 +200,6 @@
 				0CB3D48520802EB000DD8AE9 /* Sources */,
 				0CB3D48620802EB000DD8AE9 /* Frameworks */,
 				0CB3D48720802EB000DD8AE9 /* Resources */,
-				285DE24FF145DD969AB7E7C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,24 +258,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		285DE24FF145DD969AB7E7C5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AHQ/Pods-AHQ-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AHQ/Pods-AHQ-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		639DBBB2C9EF45AC2807EA52 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -304,6 +296,7 @@
 				0CB3D4DE20808AD900DD8AE9 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */,
 				0CEC5F9120857EC000E6EE84 /* FocusViewController.swift in Sources */,
 				0CB3D4DD20808AD900DD8AE9 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */,
+				0C559660208C2B6000DA5B2D /* Extensions.swift in Sources */,
 				0CB3D4CE2080664C00DD8AE9 /* MessageViewController.swift in Sources */,
 				0CB3D4DB20808AD900DD8AE9 /* MenuItemView.swift in Sources */,
 				0CB3D4A420802FAE00DD8AE9 /* SWRevealViewController.m in Sources */,

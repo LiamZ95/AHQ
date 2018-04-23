@@ -6,6 +6,6 @@ target 'AHQ' do
   use_frameworks!
   
   # Pods for AHQ
-  pod 'JTAppleCalendar', '~> 7.0'
+  
 
 end
