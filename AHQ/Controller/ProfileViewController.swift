@@ -26,21 +26,17 @@ class ProfileViewController: UIViewController {
         
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
         
-        let vc1 = storyBoard.instantiateViewController(withIdentifier: "RecentViewController")
-        let vc2 = storyBoard.instantiateViewController(withIdentifier: "BioViewController")
-        let vc3 = storyBoard.instantiateViewController(withIdentifier: "GoalViewController")
-        let vc4 = storyBoard.instantiateViewController(withIdentifier: "FocusViewController")
+        let vc1 = storyBoard.instantiateViewController(withIdentifier: "BioViewController")
+        let vc2 = storyBoard.instantiateViewController(withIdentifier: "GoalViewController")
+        let vc3 = storyBoard.instantiateViewController(withIdentifier: "FocusViewController")
         
-        vc1.title = "Recent"
-        vc2.title = "Bio"
-        vc3.title = "Goals"
-        vc4.title = "Foucs"
+        vc1.title = "Bio"
+        vc2.title = "Goals"
+        vc3.title = "Foucs"
         
         controllerArray.append(vc1)
         controllerArray.append(vc2)
         controllerArray.append(vc3)
-        controllerArray.append(vc4)
-
         
         let parameters: [CAPSPageMenuOption] = [
             .menuItemSeparatorWidth(4.3),
@@ -49,6 +45,9 @@ class ProfileViewController: UIViewController {
         ]
         
         profilePageMenu = CAPSPageMenu(viewControllers: controllerArray, frame: CGRect(x: 0.0, y: navheight, width: self.view.frame.width, height: self.view.frame.height), pageMenuOptions: parameters)
+        
+        // disable scrolling
+        profilePageMenu?.controllerScrollView.isScrollEnabled = false
         
         self.view.addSubview(profilePageMenu!.view)
         

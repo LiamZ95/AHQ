@@ -31,7 +31,8 @@ class HomeViewController: UIViewController {
         self.navigationController?.navigationBar.setGradientBackground(colors: colors)
     }
     
-    // function to initialize page menu
+    
+    // initialize page menu
     func setupPages() {
         var controllerArray: [UIViewController] = []
         
@@ -54,7 +55,8 @@ class HomeViewController: UIViewController {
             .useMenuLikeSegmentedControl(true),
             .menuItemSeparatorPercentageHeight(0.1),
             .menuHeight(50),
-            .scrollMenuBackgroundColor (UIColor(red: 142/255, green: 38/255, blue: 111/255, alpha: 1))
+            .scrollMenuBackgroundColor (UIColor(red: 142/255, green: 38/255, blue: 111/255, alpha: 1)),
+            .menuItemFont(UIFont.boldSystemFont(ofSize: 20))
             ]
         
         pageMenu = CAPSPageMenu(viewControllers: controllerArray, frame: CGRect(x: 0.0, y: navheight, width: self.view.frame.width, height: self.view.frame.height), pageMenuOptions: parameters)
