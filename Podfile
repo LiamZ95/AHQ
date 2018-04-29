@@ -6,6 +6,7 @@ target 'AHQ' do
   use_frameworks!
   
   # Pods for AHQ
-  
+  pod 'GoogleAPIClientForREST/Sheets', '~> 1.2.1'
+  pod 'GoogleSignIn', '~> 4.1.1'
 
 end

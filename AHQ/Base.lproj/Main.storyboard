@@ -297,7 +297,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dLg-b6-jyS">
-                                <rect key="frame" x="0.0" y="350" width="375" height="462"/>
+                                <rect key="frame" x="0.0" y="350" width="375" height="428"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="xUq-oE-S57">
                                     <size key="itemSize" width="150" height="150"/>
@@ -347,7 +347,7 @@
                             <constraint firstItem="fha-QH-F14" firstAttribute="trailing" secondItem="dLg-b6-jyS" secondAttribute="trailing" id="09A-0P-PS6"/>
                             <constraint firstItem="dLg-b6-jyS" firstAttribute="leading" secondItem="fha-QH-F14" secondAttribute="leading" id="5Rg-pw-kYK"/>
                             <constraint firstItem="6bt-IX-EXt" firstAttribute="top" secondItem="fha-QH-F14" secondAttribute="top" id="7KG-kB-dwO"/>
-                            <constraint firstAttribute="bottom" secondItem="dLg-b6-jyS" secondAttribute="bottom" id="CMF-hq-3Lb"/>
+                            <constraint firstItem="fha-QH-F14" firstAttribute="bottom" secondItem="dLg-b6-jyS" secondAttribute="bottom" id="CMF-hq-3Lb"/>
                             <constraint firstItem="a42-58-Y5R" firstAttribute="top" secondItem="6bt-IX-EXt" secondAttribute="bottom" id="FVZ-T9-h3G"/>
                             <constraint firstItem="6bt-IX-EXt" firstAttribute="leading" secondItem="fha-QH-F14" secondAttribute="leading" id="J0V-kZ-FH0"/>
                             <constraint firstItem="dLg-b6-jyS" firstAttribute="top" secondItem="a42-58-Y5R" secondAttribute="bottom" id="YAP-B7-q84"/>

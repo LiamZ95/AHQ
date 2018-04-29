@@ -15,6 +15,18 @@ class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupPages()
+        setupNavigationBar()
+    }
+    
+    func setupNavigationBar() {
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+        self.navigationController?.navigationBar.tintColor = UIColor.white
+        self.title = "Profile"
+        // change navigation bar color
+        var colors = [UIColor]()
+        colors.append(UIColor(red: 201/255, green: 49/255, blue: 74/255, alpha: 1))
+        colors.append(UIColor(red: 142/255, green: 38/255, blue: 111/255, alpha: 1))
+        self.navigationController?.navigationBar.setGradientBackground(colors: colors)
     }
     
     
@@ -41,7 +53,10 @@ class ProfileViewController: UIViewController {
         let parameters: [CAPSPageMenuOption] = [
             .menuItemSeparatorWidth(4.3),
             .useMenuLikeSegmentedControl(true),
-            .menuItemSeparatorPercentageHeight(0.1)
+            .menuItemSeparatorPercentageHeight(0.1),
+            .menuHeight(50),
+            .scrollMenuBackgroundColor (UIColor(red: 142/255, green: 38/255, blue: 111/255, alpha: 1)),
+            .menuItemFont(UIFont.boldSystemFont(ofSize: 20))
         ]
         
         profilePageMenu = CAPSPageMenu(viewControllers: controllerArray, frame: CGRect(x: 0.0, y: navheight, width: self.view.frame.width, height: self.view.frame.height), pageMenuOptions: parameters)
