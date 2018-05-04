@@ -6,4 +6,6 @@ target 'AHQ' do
   use_frameworks!
   
   # Pods for AHQ
+  pod 'GoogleSignIn'
+
 end

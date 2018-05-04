@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C34399B209C393E00360036 /* ahq_auth.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C34399A209C393E00360036 /* ahq_auth.plist */; };
 		0C559660208C2B6000DA5B2D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C55965F208C2B6000DA5B2D /* Extensions.swift */; };
 		0C559663208E016B00DA5B2D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C559662208E016B00DA5B2D /* TabBarViewController.swift */; };
 		0C559665208E247700DA5B2D /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C559664208E247700DA5B2D /* ProfileCollectionViewCell.swift */; };
@@ -16,7 +17,6 @@
 		0CB3D49420802EB000DD8AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB3D49220802EB000DD8AE9 /* Main.storyboard */; };
 		0CB3D49620802EB200DD8AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB3D49520802EB200DD8AE9 /* Assets.xcassets */; };
 		0CB3D49920802EB200DD8AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB3D49720802EB200DD8AE9 /* LaunchScreen.storyboard */; };
-		0CB3D4A420802FAE00DD8AE9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4A220802FAE00DD8AE9 /* SWRevealViewController.m */; };
 		0CB3D4CE2080664C00DD8AE9 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4CD2080664C00DD8AE9 /* MessageViewController.swift */; };
 		0CB3D4DB20808AD900DD8AE9 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D420808AD900DD8AE9 /* MenuItemView.swift */; };
 		0CB3D4DC20808AD900DD8AE9 /* CAPSPageMenu+UIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D520808AD900DD8AE9 /* CAPSPageMenu+UIConfiguration.swift */; };
@@ -35,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C34399A209C393E00360036 /* ahq_auth.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ahq_auth.plist; sourceTree = "<group>"; };
 		0C55965F208C2B6000DA5B2D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0C559662208E016B00DA5B2D /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		0C559664208E247700DA5B2D /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -47,8 +48,6 @@
 		0CB3D49820802EB200DD8AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CB3D49A20802EB200DD8AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CB3D4A120802FAD00DD8AE9 /* AHQ-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AHQ-Bridging-Header.h"; sourceTree = "<group>"; };
-		0CB3D4A220802FAE00DD8AE9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
-		0CB3D4A320802FAE00DD8AE9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		0CB3D4CD2080664C00DD8AE9 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		0CB3D4D420808AD900DD8AE9 /* MenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
 		0CB3D4D520808AD900DD8AE9 /* CAPSPageMenu+UIConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIConfiguration.swift"; sourceTree = "<group>"; };
@@ -109,17 +108,16 @@
 		0CB3D48B20802EB000DD8AE9 /* AHQ */ = {
 			isa = PBXGroup;
 			children = (
+				0CB3D48C20802EB000DD8AE9 /* AppDelegate.swift */,
 				0CC82DED2095BF3100A061F5 /* AHQ.entitlements */,
+				0C34399A209C393E00360036 /* ahq_auth.plist */,
 				0C559661208DA7C300DA5B2D /* Model */,
 				0CEC5F872084C70800E6EE84 /* Helper */,
 				0CEC5F862084BF9700E6EE84 /* View */,
 				0CB3D4D320808ABB00DD8AE9 /* CAPSPageMenu */,
 				0CB3D4A020802F2000DD8AE9 /* Controller */,
 				0CB3D49520802EB200DD8AE9 /* Assets.xcassets */,
-				0CB3D48C20802EB000DD8AE9 /* AppDelegate.swift */,
 				0CB3D49720802EB200DD8AE9 /* LaunchScreen.storyboard */,
-				0CB3D4A320802FAE00DD8AE9 /* SWRevealViewController.h */,
-				0CB3D4A220802FAE00DD8AE9 /* SWRevealViewController.m */,
 				0CB3D49A20802EB200DD8AE9 /* Info.plist */,
 				0CB3D49220802EB000DD8AE9 /* Main.storyboard */,
 				0CB3D4A120802FAD00DD8AE9 /* AHQ-Bridging-Header.h */,
@@ -202,6 +200,8 @@
 				0CB3D48520802EB000DD8AE9 /* Sources */,
 				0CB3D48620802EB000DD8AE9 /* Frameworks */,
 				0CB3D48720802EB000DD8AE9 /* Resources */,
+				5E5E1116C8A5E5F6053FB33D /* [CP] Embed Pods Frameworks */,
+				66085929D3EFF17684D8B300 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,12 +259,35 @@
 				0CB3D49920802EB200DD8AE9 /* LaunchScreen.storyboard in Resources */,
 				0CB3D49620802EB200DD8AE9 /* Assets.xcassets in Resources */,
 				0CB3D49420802EB000DD8AE9 /* Main.storyboard in Resources */,
+				0C34399B209C393E00360036 /* ahq_auth.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5E5E1116C8A5E5F6053FB33D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AHQ/Pods-AHQ-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AHQ/Pods-AHQ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		639DBBB2C9EF45AC2807EA52 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -281,6 +304,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66085929D3EFF17684D8B300 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AHQ/Pods-AHQ-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AHQ/Pods-AHQ-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -306,7 +347,6 @@
 				0C559660208C2B6000DA5B2D /* Extensions.swift in Sources */,
 				0CB3D4CE2080664C00DD8AE9 /* MessageViewController.swift in Sources */,
 				0CB3D4DB20808AD900DD8AE9 /* MenuItemView.swift in Sources */,
-				0CB3D4A420802FAE00DD8AE9 /* SWRevealViewController.m in Sources */,
 				0CB3D4E32080E86900DD8AE9 /* FeedViewController.swift in Sources */,
 				0CB3D4E52081E7BF00DD8AE9 /* FeedViewCell.swift in Sources */,
 				0CB3D4DC20808AD900DD8AE9 /* CAPSPageMenu+UIConfiguration.swift in Sources */,
@@ -460,7 +500,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VGMH5LL8DW;
 				INFOPLIST_FILE = AHQ/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = liyuz.AHQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AHQ/AHQ-Bridging-Header.h";
@@ -480,7 +523,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VGMH5LL8DW;
 				INFOPLIST_FILE = AHQ/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = liyuz.AHQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AHQ/AHQ-Bridging-Header.h";

@@ -13,21 +13,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
 
-//    func applicationDidFinishLaunching(_ application: UIApplication) {
-//        // Initialize Google sign-in.
-//        GIDSignIn.sharedInstance().clientID = "730337957622-uqqj1ivd1601tbsrj9gnn4451pkqb8je.apps.googleusercontent.com"
-//    }
-//    
-//    @available(iOS 9.0, *)
-//    func application(_ app: UIApplication, open url: URL,
-//                     options: [UIApplicationOpenURLOptionsKey : Any]) -> Bool {
-//        let sourceApplication = options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String
-//        let annotation = options[UIApplicationOpenURLOptionsKey.annotation]
-//        return GIDSignIn.sharedInstance().handle(url,
-//                                                 sourceApplication: sourceApplication,
-//                                                 annotation: annotation)
-//    }
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
 
