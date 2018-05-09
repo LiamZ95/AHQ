@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 extension CAGradientLayer {
     convenience init(frame: CGRect, colors: [UIColor]) {
@@ -43,6 +44,18 @@ extension UINavigationBar {
         let gradientLayer = CAGradientLayer(frame: updatedFrame, colors: colors)
         
         setBackgroundImage(gradientLayer.createGradientImage(), for: UIBarMetrics.default)
+    }
+}
+
+extension UIViewController {
+    func hideKeyboardWhenTappedAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
     }
 }
 
