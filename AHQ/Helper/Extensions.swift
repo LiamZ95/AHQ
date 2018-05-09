@@ -59,4 +59,20 @@ extension UIViewController {
     }
 }
 
+// set gradient background for a view controller
+extension CAGradientLayer {
+    func setGradientBackground() -> CAGradientLayer {
+        let colorStart = UIColor(red: 201/255, green: 49/255, blue: 74/255, alpha: 1)
+        let colorEnd = UIColor(red: 142/255, green: 38/255, blue: 111/255, alpha: 1)
+        let gradientColors: [CGColor] = [colorStart.cgColor, colorEnd.cgColor]
+        let gradientLocations: [NSNumber] = [0.0, 1.0]
+        
+        let gradientLayer: CAGradientLayer = CAGradientLayer()
+        gradientLayer.colors = gradientColors
+        gradientLayer.locations = gradientLocations
+        
+        return gradientLayer
+    }
+}
+
 

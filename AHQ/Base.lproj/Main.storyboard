@@ -109,7 +109,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3UL-J1-x5T">
-                                <rect key="frame" x="30" y="828" width="315" height="350"/>
+                                <rect key="frame" x="30" y="828" width="315" height="400"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your email address" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SOZ-IX-lb2">
                                         <rect key="frame" x="30" y="70" width="255" height="30"/>
@@ -139,7 +139,7 @@
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eC9-NX-ool">
-                                        <rect key="frame" x="107" y="280" width="100" height="40"/>
+                                        <rect key="frame" x="107" y="330" width="100" height="40"/>
                                         <color key="backgroundColor" red="0.32676805920000002" green="0.70423775310000003" blue="0.45381447409999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="JHP-If-UMC"/>
@@ -159,6 +159,17 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="e0b-PD-gGe">
+                                        <rect key="frame" x="238" y="255" width="49" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </switch>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I am coach" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wWt-OB-OFq">
+                                        <rect key="frame" x="110" y="258" width="94" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -168,7 +179,7 @@
                                     <constraint firstItem="Ycd-z5-BvB" firstAttribute="top" secondItem="3UL-J1-x5T" secondAttribute="top" constant="8" id="Sn9-6a-BLH"/>
                                     <constraint firstItem="SOZ-IX-lb2" firstAttribute="leading" secondItem="3UL-J1-x5T" secondAttribute="leading" constant="30" id="YjL-vd-9It"/>
                                     <constraint firstItem="SOZ-IX-lb2" firstAttribute="top" secondItem="3UL-J1-x5T" secondAttribute="top" constant="70" id="ava-MC-P0M"/>
-                                    <constraint firstAttribute="height" constant="350" id="c5J-mt-3GZ"/>
+                                    <constraint firstAttribute="height" constant="400" id="c5J-mt-3GZ"/>
                                     <constraint firstItem="tBJ-Pn-YGI" firstAttribute="leading" secondItem="3UL-J1-x5T" secondAttribute="leading" constant="30" id="dTa-o1-on7"/>
                                     <constraint firstAttribute="trailing" secondItem="Pas-ws-fFi" secondAttribute="trailing" constant="30" id="fbT-jX-QOL"/>
                                     <constraint firstItem="tBJ-Pn-YGI" firstAttribute="top" secondItem="SOZ-IX-lb2" secondAttribute="bottom" constant="30" id="ftE-ZF-bZ6"/>
@@ -185,7 +196,7 @@
                             <constraint firstItem="dJg-ge-2QX" firstAttribute="trailing" secondItem="HOa-nh-9LB" secondAttribute="trailing" constant="57" id="1GQ-Td-N8C"/>
                             <constraint firstItem="TNA-9V-Jvz" firstAttribute="leading" secondItem="dJg-ge-2QX" secondAttribute="leading" id="5gd-tU-yta"/>
                             <constraint firstItem="dJg-ge-2QX" firstAttribute="trailing" secondItem="fbW-qd-BAe" secondAttribute="trailing" constant="30" id="6yp-gj-paq"/>
-                            <constraint firstItem="dJg-ge-2QX" firstAttribute="bottom" secondItem="3UL-J1-x5T" secondAttribute="bottom" constant="-400" id="79j-nJ-MoG"/>
+                            <constraint firstItem="dJg-ge-2QX" firstAttribute="bottom" secondItem="3UL-J1-x5T" secondAttribute="bottom" constant="-450" id="79j-nJ-MoG"/>
                             <constraint firstItem="fbW-qd-BAe" firstAttribute="top" secondItem="dJg-ge-2QX" secondAttribute="top" constant="315" id="7RR-m3-WtY"/>
                             <constraint firstItem="5h8-ZX-CV9" firstAttribute="top" secondItem="qLh-Vx-FQV" secondAttribute="bottom" constant="80" id="FNV-nN-kNK"/>
                             <constraint firstItem="TNA-9V-Jvz" firstAttribute="trailing" secondItem="dJg-ge-2QX" secondAttribute="trailing" id="ITb-7A-Pwx"/>
@@ -207,11 +218,16 @@
                     <connections>
                         <outlet property="backgroundButton" destination="TNA-9V-Jvz" id="Ayb-vG-jdk"/>
                         <outlet property="closeLabel" destination="Ycd-z5-BvB" id="1Zf-B5-yMk"/>
+                        <outlet property="coachSwitch" destination="e0b-PD-gGe" id="Vax-ff-cHS"/>
                         <outlet property="loginEmailTextField" destination="fbW-qd-BAe" id="vaB-qc-J39"/>
                         <outlet property="loginPwdTextField" destination="qLh-Vx-FQV" id="6jh-ZT-2xW"/>
                         <outlet property="signUpView" destination="3UL-J1-x5T" id="W4r-JN-4A3"/>
                         <outlet property="signinButton" destination="5h8-ZX-CV9" id="T2t-Ru-vRz"/>
+                        <outlet property="signupButton" destination="eC9-NX-ool" id="gKA-md-AIv"/>
+                        <outlet property="signupEmailTextField" destination="SOZ-IX-lb2" id="Wl3-WI-TJt"/>
                         <outlet property="signupLabel" destination="HOa-nh-9LB" id="GAM-Is-wha"/>
+                        <outlet property="signupPwdTextField1" destination="tBJ-Pn-YGI" id="JAq-g7-rvw"/>
+                        <outlet property="signupPwdTextField2" destination="Pas-ws-fFi" id="XMN-Pw-Y5I"/>
                         <outlet property="signupViewConstraint" destination="79j-nJ-MoG" id="cww-kW-Shh"/>
                     </connections>
                 </viewController>
@@ -222,7 +238,7 @@
         <!--Tab Bar View Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" customClass="TabBarViewController" customModule="AHQ" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarViewController" id="49e-Tb-3d3" customClass="TabBarViewController" customModule="AHQ" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
