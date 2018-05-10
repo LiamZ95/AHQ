@@ -11,6 +11,8 @@ import UIKit
 class BioViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
     @IBOutlet weak var funcCollectionView: UICollectionView!
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var scrollUIView: UIView!
     
     var funcs = ["Workouts", "Functional movement", "Athletic testing", "Self reporting"]
     
@@ -19,9 +21,18 @@ class BioViewController: UIViewController, UICollectionViewDataSource, UICollect
         funcCollectionView.dataSource = self
         funcCollectionView.delegate = self
         
+        // set gradient color for view in scrollview
+        let backgroundLayer = CAGradientLayer().setGradientBackground()
+        // set gradient from left to right
+        backgroundLayer.startPoint = CGPoint(x: 0.0, y: 0.5)
+        backgroundLayer.endPoint = CGPoint(x: 1.0, y: 0.5)
+        backgroundLayer.frame = scrollUIView.bounds
+        scrollUIView.layer.insertSublayer(backgroundLayer, at: 0)
+        
         adjustCellPosition()
     }
     
+    // set the layout of collection view cell
     func adjustCellPosition() {
         // Create flow layout
         let flow = UICollectionViewFlowLayout()

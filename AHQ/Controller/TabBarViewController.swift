@@ -9,7 +9,7 @@
 import UIKit
 
 class TabBarViewController: UITabBarController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,6 +17,7 @@ class TabBarViewController: UITabBarController {
         
         // change active icon color
         UITabBar.appearance().tintColor = UIColor(red: 142/255, green: 38/255, blue: 111/255, alpha: 1)
+        
     }
     
     

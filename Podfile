@@ -6,6 +6,10 @@ target 'AHQ' do
   use_frameworks!
   
   # Pods for AHQ
+  
+  # google sign in
   pod 'GoogleSignIn'
+  # for calendar
+  pod 'GoogleAPIClientForREST/Calendar'
 
 end

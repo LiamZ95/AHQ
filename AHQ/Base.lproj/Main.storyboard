@@ -256,10 +256,10 @@
             </objects>
             <point key="canvasLocation" x="-2" y="104"/>
         </scene>
-        <!--View Controller-->
+        <!--Record View Controller-->
         <scene sceneID="wa8-UT-MHM">
             <objects>
-                <viewController id="3TZ-nC-PYd" sceneMemberID="viewController">
+                <viewController id="3TZ-nC-PYd" customClass="RecordViewController" customModule="AHQ" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OLq-zm-tIC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -313,10 +313,10 @@
             </objects>
             <point key="canvasLocation" x="621.60000000000002" y="894.82758620689663"/>
         </scene>
-        <!--View Controller-->
+        <!--Lab View Controller-->
         <scene sceneID="bS7-yf-dmO">
             <objects>
-                <viewController id="hpQ-me-ISd" sceneMemberID="viewController">
+                <viewController id="hpQ-me-ISd" customClass="LabViewController" customModule="AHQ" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BIh-QR-541">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -360,16 +360,6 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MUK-UH-4pp">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="250"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rxc-gN-2n6">
-                                                <rect key="frame" x="8" y="115" width="3342" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
                                         <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="600" id="re7-rY-FhE"/>
@@ -455,6 +445,8 @@
                     </view>
                     <connections>
                         <outlet property="funcCollectionView" destination="dLg-b6-jyS" id="LI5-SB-uVJ"/>
+                        <outlet property="scrollUIView" destination="MUK-UH-4pp" id="CwV-3o-2X1"/>
+                        <outlet property="scrollView" destination="6bt-IX-EXt" id="GxL-dm-McR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="avv-ZT-Xi4" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -498,7 +490,7 @@
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="fkv-WF-0g5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0pT-Q4-zkv">
                             <size key="itemSize" width="360" height="200"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>

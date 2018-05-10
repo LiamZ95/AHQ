@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C2D10DD20A3431E00A5717C /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2D10DC20A3431E00A5717C /* RecordViewController.swift */; };
+		0C2D10E020A3439C00A5717C /* LabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2D10DF20A3439C00A5717C /* LabViewController.swift */; };
 		0C34399B209C393E00360036 /* ahq_auth.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C34399A209C393E00360036 /* ahq_auth.plist */; };
 		0C34399D209DA09F00360036 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C34399C209DA09F00360036 /* LoginViewController.swift */; };
 		0C559660208C2B6000DA5B2D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C55965F208C2B6000DA5B2D /* Extensions.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C2D10DC20A3431E00A5717C /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		0C2D10DF20A3439C00A5717C /* LabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabViewController.swift; sourceTree = "<group>"; };
 		0C34399A209C393E00360036 /* ahq_auth.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ahq_auth.plist; sourceTree = "<group>"; };
 		0C34399C209DA09F00360036 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0C55965F208C2B6000DA5B2D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -133,7 +137,9 @@
 				0C559662208E016B00DA5B2D /* TabBarViewController.swift */,
 				0CB3D48E20802EB000DD8AE9 /* HomeViewController.swift */,
 				0CB3D49020802EB000DD8AE9 /* ProfileViewController.swift */,
+				0C2D10DC20A3431E00A5717C /* RecordViewController.swift */,
 				0CEC5F882084EC2300E6EE84 /* CalendarViewController.swift */,
+				0C2D10DF20A3439C00A5717C /* LabViewController.swift */,
 				0CB3D4E22080E86900DD8AE9 /* FeedViewController.swift */,
 				0CB3D4CD2080664C00DD8AE9 /* MessageViewController.swift */,
 				0CEC5F8C20857B3000E6EE84 /* BioViewController.swift */,
@@ -278,12 +284,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-AHQ/Pods-AHQ-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +347,7 @@
 				0CEC5F892084EC2300E6EE84 /* CalendarViewController.swift in Sources */,
 				0C559663208E016B00DA5B2D /* TabBarViewController.swift in Sources */,
 				0CB3D49120802EB000DD8AE9 /* ProfileViewController.swift in Sources */,
+				0C2D10DD20A3431E00A5717C /* RecordViewController.swift in Sources */,
 				0CB3D4DF20808AD900DD8AE9 /* CAPSPageMenuConfiguration.swift in Sources */,
 				0CB3D4E120808AD900DD8AE9 /* CAPSPageMenu+Options.swift in Sources */,
 				0CB3D4E020808AD900DD8AE9 /* CAPSPageMenu.swift in Sources */,
@@ -349,6 +358,7 @@
 				0CEC5F9120857EC000E6EE84 /* FocusViewController.swift in Sources */,
 				0CB3D4DD20808AD900DD8AE9 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */,
 				0C559660208C2B6000DA5B2D /* Extensions.swift in Sources */,
+				0C2D10E020A3439C00A5717C /* LabViewController.swift in Sources */,
 				0CB3D4CE2080664C00DD8AE9 /* MessageViewController.swift in Sources */,
 				0CB3D4DB20808AD900DD8AE9 /* MenuItemView.swift in Sources */,
 				0CB3D4E32080E86900DD8AE9 /* FeedViewController.swift in Sources */,

@@ -59,7 +59,7 @@ class HomeViewController: UIViewController {
             .menuItemFont(UIFont.boldSystemFont(ofSize: 20))
             ]
         
-        pageMenu = CAPSPageMenu(viewControllers: controllerArray, frame: CGRect(x: 0.0, y: navheight, width: self.view.frame.width, height: self.view.frame.height), pageMenuOptions: parameters)
+        pageMenu = CAPSPageMenu(viewControllers: controllerArray, frame: CGRect(x: 0.0, y: navheight, width: self.view.frame.width, height: self.view.frame.height-49.0), pageMenuOptions: parameters)
         
         self.view.addSubview(pageMenu!.view)
         
