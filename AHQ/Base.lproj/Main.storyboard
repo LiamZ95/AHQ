@@ -375,7 +375,7 @@
                                     <constraint firstItem="MUK-UH-4pp" firstAttribute="leading" secondItem="6bt-IX-EXt" secondAttribute="leading" id="sIQ-Ye-AQZ"/>
                                 </constraints>
                             </scrollView>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="a42-58-Y5R">
+                            <searchBar contentMode="redraw" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="a42-58-Y5R">
                                 <rect key="frame" x="0.0" y="294" width="375" height="56"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="C0J-Qi-pnR"/>
