@@ -21,7 +21,7 @@ class LabViewController: UIViewController {
     func setupNavigationBar() {
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
         self.navigationController?.navigationBar.tintColor = UIColor.white
-        self.title = "3D Lab"
+        self.title = "3D LAB"
         // change navigation bar color
         var colors = [UIColor]()
         colors.append(UIColor(red: 201/255, green: 49/255, blue: 74/255, alpha: 1))

@@ -16,8 +16,11 @@ class CalendarViewController: UIViewController, GIDSignInUIDelegate {
         //
         setupNavigationBar()
         
-        GIDSignIn.sharedInstance().clientID = "730337957622-b2hfk5no3qqt6g59idtskksmj1blckd9.apps.googleusercontent.com"
+        // for google
         GIDSignIn.sharedInstance().uiDelegate = self
+        
+        // Uncomment to automatically sign in the user.
+        //GIDSignIn.sharedInstance().signInSilently()
         
         let signInButton = GIDSignInButton(frame: CGRect(x: 0, y: 0, width: 100, height: 50))
         signInButton.center = view.center
