@@ -185,5 +185,31 @@ class FocusViewController: UIViewController, UICollectionViewDelegate, UICollect
         }
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if tableView == tableView1 {
+            showDetailByAlert(title: tvHeaders[0], message: tv1Data[indexPath.row])
+        } else if tableView == tableView2 {
+            showDetailByAlert(title: tvHeaders[1], message: tv2Data[indexPath.row])
+        } else if tableView == tableView3 {
+            showDetailByAlert(title: tvHeaders[2], message: tv3Data[indexPath.row])
+        } else {
+            showDetailByAlert(title: tvHeaders[3], message: tv4Data[indexPath.row])
+        }
+    }
+    
+    func showDetailByAlert(title : String, message: String) {
+        let alert = UIAlertController(
+            title: title,
+            message: message,
+            preferredStyle: UIAlertControllerStyle.alert
+        )
+        let ok = UIAlertAction(
+            title: "OK",
+            style: UIAlertActionStyle.default,
+            handler: nil
+        )
+        alert.addAction(ok)
+        present(alert, animated: true, completion: nil)
+    }
 
 }

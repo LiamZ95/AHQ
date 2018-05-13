@@ -20,6 +20,10 @@
 		0C2D10F820A6F99800A5717C /* UnityUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0C2D10F320A6F99700A5717C /* UnityUtils.mm */; };
 		0C2D10F920A6F99800A5717C /* rsync_exclude in Resources */ = {isa = PBXBuildFile; fileRef = 0C2D10F420A6F99700A5717C /* rsync_exclude */; };
 		0C2D10FA20A6F99800A5717C /* Unity.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0C2D10F620A6F99700A5717C /* Unity.xcconfig */; };
+		0C2D10FE20A7FB2200A5717C /* GoogleAPIClientForREST.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2D10FD20A7FB2200A5717C /* GoogleAPIClientForREST.framework */; };
+		0C2D110020A7FB2200A5717C /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2D10FF20A7FB2200A5717C /* GoogleToolboxForMac.framework */; };
+		0C2D110220A7FB2200A5717C /* GTMOAuth2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2D110120A7FB2200A5717C /* GTMOAuth2.framework */; };
+		0C2D110420A7FB2200A5717C /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2D110320A7FB2200A5717C /* GTMSessionFetcher.framework */; };
 		0C34399B209C393E00360036 /* ahq_auth.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C34399A209C393E00360036 /* ahq_auth.plist */; };
 		0C34399D209DA09F00360036 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C34399C209DA09F00360036 /* LoginViewController.swift */; };
 		0C559660208C2B6000DA5B2D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C55965F208C2B6000DA5B2D /* Extensions.swift */; };
@@ -28,9 +32,9 @@
 		0CB3D48D20802EB000DD8AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D48C20802EB000DD8AE9 /* AppDelegate.swift */; };
 		0CB3D48F20802EB000DD8AE9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D48E20802EB000DD8AE9 /* HomeViewController.swift */; };
 		0CB3D49120802EB000DD8AE9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D49020802EB000DD8AE9 /* ProfileViewController.swift */; };
-		0CB3D49420802EB000DD8AE9 = {isa = PBXBuildFile; fileRef = 0CB3D49220802EB000DD8AE9 /* Main.storyboard */; };
+		0CB3D49420802EB000DD8AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB3D49220802EB000DD8AE9 /* Main.storyboard */; };
 		0CB3D49620802EB200DD8AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB3D49520802EB200DD8AE9 /* Assets.xcassets */; };
-		0CB3D49920802EB200DD8AE9 = {isa = PBXBuildFile; fileRef = 0CB3D49720802EB200DD8AE9 /* LaunchScreen.storyboard */; };
+		0CB3D49920802EB200DD8AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB3D49720802EB200DD8AE9 /* LaunchScreen.storyboard */; };
 		0CB3D4CE2080664C00DD8AE9 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4CD2080664C00DD8AE9 /* MessageViewController.swift */; };
 		0CB3D4DB20808AD900DD8AE9 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D420808AD900DD8AE9 /* MenuItemView.swift */; };
 		0CB3D4DC20808AD900DD8AE9 /* CAPSPageMenu+UIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D520808AD900DD8AE9 /* CAPSPageMenu+UIConfiguration.swift */; };
@@ -201,6 +205,10 @@
 		0C2D10F520A6F99700A5717C /* UnityUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnityUtils.h; sourceTree = "<group>"; };
 		0C2D10F620A6F99700A5717C /* Unity.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Unity.xcconfig; sourceTree = "<group>"; };
 		0C2D10F720A6F99700A5717C /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		0C2D10FD20A7FB2200A5717C /* GoogleAPIClientForREST.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleAPIClientForREST.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2D10FF20A7FB2200A5717C /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2D110120A7FB2200A5717C /* GTMOAuth2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GTMOAuth2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2D110320A7FB2200A5717C /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C334AD2AE32A2E753E16747 /* Il2CppCompilerCalculateTypeValues_13Table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValues_13Table.cpp; path = AHQ/Unity/Classes/Native/Il2CppCompilerCalculateTypeValues_13Table.cpp; sourceTree = SOURCE_ROOT; };
 		0C34399A209C393E00360036 /* ahq_auth.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ahq_auth.plist; sourceTree = "<group>"; };
 		0C34399C209DA09F00360036 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -469,7 +477,7 @@
 		7693477CAE0770CD3B5A4EC4 /* NativeMethods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NativeMethods.h; path = AHQ/Unity/Libraries/libil2cpp/include/icalls/System/Microsoft.Win32/NativeMethods.h; sourceTree = SOURCE_ROOT; };
 		76D34020A668AC0F8668655A /* KeyPairPersistence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KeyPairPersistence.h; path = AHQ/Unity/Libraries/libil2cpp/include/icalls/mscorlib/Mono.Security.Cryptography/KeyPairPersistence.h; sourceTree = SOURCE_ROOT; };
 		77544D679D3FFCDB9E654CC8 /* Decimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Decimal.h; path = AHQ/Unity/Libraries/libil2cpp/include/icalls/mscorlib/System/Decimal.h; sourceTree = SOURCE_ROOT; };
-		776146F8B4EB4E90CF0FC6D0 /* libil2cpp.def */ = {isa = PBXFileReference; lastKnownFileType = file; name = libil2cpp.def; path = AHQ/Unity/Libraries/libil2cpp/include/libil2cpp.def; sourceTree = SOURCE_ROOT; };
+		776146F8B4EB4E90CF0FC6D0 /* libil2cpp.def */ = {isa = PBXFileReference; lastKnownFileType = text; name = libil2cpp.def; path = AHQ/Unity/Libraries/libil2cpp/include/libil2cpp.def; sourceTree = SOURCE_ROOT; };
 		77724B5ABA442FB62C98307D /* EventImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EventImpl.h; path = AHQ/Unity/Libraries/libil2cpp/include/os/Posix/EventImpl.h; sourceTree = SOURCE_ROOT; };
 		779143CF857D007C71E50304 /* Il2CppGenericMethodHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Il2CppGenericMethodHash.h; path = AHQ/Unity/Libraries/libil2cpp/include/metadata/Il2CppGenericMethodHash.h; sourceTree = SOURCE_ROOT; };
 		77FB482BAA8B55E086D2F8E0 /* MutexImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MutexImpl.h; path = AHQ/Unity/Libraries/libil2cpp/include/os/Win32/MutexImpl.h; sourceTree = SOURCE_ROOT; };
@@ -792,7 +800,7 @@
 		F2204D058003410E8A848EC4 /* MonoType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MonoType.h; path = AHQ/Unity/Libraries/libil2cpp/include/icalls/mscorlib/System/MonoType.h; sourceTree = SOURCE_ROOT; };
 		F25B4496C1632800A0AA872A /* Pods_AHQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C948C480E2C5BE489016FC /* Error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Error.h; path = AHQ/Unity/Libraries/libil2cpp/include/os/Error.h; sourceTree = SOURCE_ROOT; };
-		F2F84762BEBA6B25D46C1F6E /* libil2cpp.icalls */ = {isa = PBXFileReference; lastKnownFileType = file; name = libil2cpp.icalls; path = AHQ/Unity/Libraries/libil2cpp/include/libil2cpp.icalls; sourceTree = SOURCE_ROOT; };
+		F2F84762BEBA6B25D46C1F6E /* libil2cpp.icalls */ = {isa = PBXFileReference; lastKnownFileType = text; name = libil2cpp.icalls; path = AHQ/Unity/Libraries/libil2cpp/include/libil2cpp.icalls; sourceTree = SOURCE_ROOT; };
 		F32944CEB239DAAF7FB9F581 /* events.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = events.h; path = AHQ/Unity/Libraries/libil2cpp/include/debugger/protocol/events.h; sourceTree = SOURCE_ROOT; };
 		F49C4289A01DA700CAD71236 /* NativeMethods-c-api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NativeMethods-c-api.h"; path = "AHQ/Unity/Libraries/libil2cpp/include/os/c-api/NativeMethods-c-api.h"; sourceTree = SOURCE_ROOT; };
 		F52A4965AA0481797E90813A /* Stopwatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Stopwatch.h; path = AHQ/Unity/Libraries/libil2cpp/include/icalls/System/System.Diagnostics/Stopwatch.h; sourceTree = SOURCE_ROOT; };
@@ -832,6 +840,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C2D10FE20A7FB2200A5717C /* GoogleAPIClientForREST.framework in Frameworks */,
+				0C2D110020A7FB2200A5717C /* GoogleToolboxForMac.framework in Frameworks */,
+				0C2D110220A7FB2200A5717C /* GTMOAuth2.framework in Frameworks */,
+				0C2D110420A7FB2200A5717C /* GTMSessionFetcher.framework in Frameworks */,
 				A89C54562CCB9AB6662C133B /* Pods_AHQ.framework in Frameworks */,
 				0B024DD794100833C11BC62A /* libiPhone-lib.a in Frameworks */,
 				63634195B403A54686BA3528 /* libil2cpp.a in Frameworks */,
@@ -1585,6 +1597,10 @@
 		844EEAF0CFB71CDEE674A6E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0C2D10FD20A7FB2200A5717C /* GoogleAPIClientForREST.framework */,
+				0C2D10FF20A7FB2200A5717C /* GoogleToolboxForMac.framework */,
+				0C2D110120A7FB2200A5717C /* GTMOAuth2.framework */,
+				0C2D110320A7FB2200A5717C /* GTMSessionFetcher.framework */,
 				F25B4496C1632800A0AA872A /* Pods_AHQ.framework */,
 			);
 			name = Frameworks;
@@ -2274,12 +2290,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CB3D49D20802EB200DD8AE9 /* Build configuration list for PBXNativeTarget "AHQ" */;
 			buildPhases = (
-				639DBBB2C9EF45AC2807EA52 /* ShellScript */,
+				639DBBB2C9EF45AC2807EA52 /* [CP] Check Pods Manifest.lock */,
 				0CB3D48520802EB000DD8AE9 /* Sources */,
 				0CB3D48620802EB000DD8AE9 /* Frameworks */,
 				0CB3D48720802EB000DD8AE9 /* Resources */,
-				5E5E1116C8A5E5F6053FB33D /* ShellScript */,
-				66085929D3EFF17684D8B300 /* ShellScript */,
+				5E5E1116C8A5E5F6053FB33D /* [CP] Embed Pods Frameworks */,
+				66085929D3EFF17684D8B300 /* [CP] Copy Pods Resources */,
 				0C2D10FB20A708E300A5717C /* ShellScript */,
 				0C2D10FC20A7098100A5717C /* ShellScript */,
 			);
@@ -2313,7 +2329,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0CB3D48420802EB000DD8AE9 /* Build configuration list for PBXProject "Unity-iPhone" */;
+			buildConfigurationList = 0CB3D48420802EB000DD8AE9 /* Build configuration list for PBXProject "AHQ" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -2322,7 +2338,7 @@
 				Base,
 			);
 			mainGroup = 0CB3D48020802EB000DD8AE9;
-			productRefGroup = 0CB3D48A20802EB000DD8AE9;
+			productRefGroup = 0CB3D48A20802EB000DD8AE9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -2337,10 +2353,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C2D10FA20A6F99800A5717C /* Unity.xcconfig in Resources */,
-				0CB3D49920802EB200DD8AE9,
+				0CB3D49920802EB200DD8AE9 /* LaunchScreen.storyboard in Resources */,
 				0CB3D49620802EB200DD8AE9 /* Assets.xcassets in Resources */,
 				0C2D10F920A6F99800A5717C /* rsync_exclude in Resources */,
-				0CB3D49420802EB000DD8AE9,
+				0CB3D49420802EB000DD8AE9 /* Main.storyboard in Resources */,
 				0C34399B209C393E00360036 /* ahq_auth.plist in Resources */,
 				5D4942D9B00FCC7F20303718 /* libil2cpp.def in Resources */,
 				2E8C40EE84D6C731A984129B /* libil2cpp.icalls in Resources */,
@@ -2376,7 +2392,7 @@
 			shellPath = /bin/sh;
 			shellScript = "echo \"Syncing data from $UNITY_IOS_EXPORT_PATH...\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data\"\ncp -Rf \"$UNITY_IOS_EXPORT_PATH/Data\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data\"";
 		};
-		5E5E1116C8A5E5F6053FB33D /* ShellScript */ = {
+		5E5E1116C8A5E5F6053FB33D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2400,7 +2416,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AHQ/Pods-AHQ-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		639DBBB2C9EF45AC2807EA52 /* ShellScript */ = {
+		639DBBB2C9EF45AC2807EA52 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2418,7 +2434,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		66085929D3EFF17684D8B300 /* ShellScript */ = {
+		66085929D3EFF17684D8B300 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2614,7 +2630,7 @@
 /* Begin XCBuildConfiguration section */
 		0CB3D49B20802EB200DD8AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C2D10F620A6F99700A5717C;
+			baseConfigurationReference = 0C2D10F620A6F99700A5717C /* Unity.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -2675,7 +2691,7 @@
 		};
 		0CB3D49C20802EB200DD8AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C2D10F620A6F99700A5717C;
+			baseConfigurationReference = 0C2D10F620A6F99700A5717C /* Unity.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -2730,7 +2746,7 @@
 		};
 		0CB3D49E20802EB200DD8AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B96DEBC140EEB845E73484EC;
+			baseConfigurationReference = B96DEBC140EEB845E73484EC /* Pods-AHQ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2753,7 +2769,7 @@
 		};
 		0CB3D49F20802EB200DD8AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24BF56764A2653595E0FBEFF;
+			baseConfigurationReference = 24BF56764A2653595E0FBEFF /* Pods-AHQ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2776,7 +2792,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CB3D48420802EB000DD8AE9 /* Build configuration list for PBXProject "Unity-iPhone" */ = {
+		0CB3D48420802EB000DD8AE9 /* Build configuration list for PBXProject "AHQ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CB3D49B20802EB200DD8AE9 /* Debug */,
