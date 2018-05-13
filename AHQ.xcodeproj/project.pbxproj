@@ -28,9 +28,9 @@
 		0CB3D48D20802EB000DD8AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D48C20802EB000DD8AE9 /* AppDelegate.swift */; };
 		0CB3D48F20802EB000DD8AE9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D48E20802EB000DD8AE9 /* HomeViewController.swift */; };
 		0CB3D49120802EB000DD8AE9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D49020802EB000DD8AE9 /* ProfileViewController.swift */; };
-		0CB3D49420802EB000DD8AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB3D49220802EB000DD8AE9 /* Main.storyboard */; };
+		0CB3D49420802EB000DD8AE9 = {isa = PBXBuildFile; fileRef = 0CB3D49220802EB000DD8AE9 /* Main.storyboard */; };
 		0CB3D49620802EB200DD8AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB3D49520802EB200DD8AE9 /* Assets.xcassets */; };
-		0CB3D49920802EB200DD8AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB3D49720802EB200DD8AE9 /* LaunchScreen.storyboard */; };
+		0CB3D49920802EB200DD8AE9 = {isa = PBXBuildFile; fileRef = 0CB3D49720802EB200DD8AE9 /* LaunchScreen.storyboard */; };
 		0CB3D4CE2080664C00DD8AE9 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4CD2080664C00DD8AE9 /* MessageViewController.swift */; };
 		0CB3D4DB20808AD900DD8AE9 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D420808AD900DD8AE9 /* MenuItemView.swift */; };
 		0CB3D4DC20808AD900DD8AE9 /* CAPSPageMenu+UIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3D4D520808AD900DD8AE9 /* CAPSPageMenu+UIConfiguration.swift */; };
@@ -2274,12 +2274,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CB3D49D20802EB200DD8AE9 /* Build configuration list for PBXNativeTarget "AHQ" */;
 			buildPhases = (
-				639DBBB2C9EF45AC2807EA52 /* [CP] Check Pods Manifest.lock */,
+				639DBBB2C9EF45AC2807EA52 /* ShellScript */,
 				0CB3D48520802EB000DD8AE9 /* Sources */,
 				0CB3D48620802EB000DD8AE9 /* Frameworks */,
 				0CB3D48720802EB000DD8AE9 /* Resources */,
-				5E5E1116C8A5E5F6053FB33D /* [CP] Embed Pods Frameworks */,
-				66085929D3EFF17684D8B300 /* [CP] Copy Pods Resources */,
+				5E5E1116C8A5E5F6053FB33D /* ShellScript */,
+				66085929D3EFF17684D8B300 /* ShellScript */,
 				0C2D10FB20A708E300A5717C /* ShellScript */,
 				0C2D10FC20A7098100A5717C /* ShellScript */,
 			);
@@ -2313,7 +2313,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0CB3D48420802EB000DD8AE9 /* Build configuration list for PBXProject "AHQ" */;
+			buildConfigurationList = 0CB3D48420802EB000DD8AE9 /* Build configuration list for PBXProject "Unity-iPhone" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -2322,7 +2322,7 @@
 				Base,
 			);
 			mainGroup = 0CB3D48020802EB000DD8AE9;
-			productRefGroup = 0CB3D48A20802EB000DD8AE9 /* Products */;
+			productRefGroup = 0CB3D48A20802EB000DD8AE9;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -2337,10 +2337,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C2D10FA20A6F99800A5717C /* Unity.xcconfig in Resources */,
-				0CB3D49920802EB200DD8AE9 /* LaunchScreen.storyboard in Resources */,
+				0CB3D49920802EB200DD8AE9,
 				0CB3D49620802EB200DD8AE9 /* Assets.xcassets in Resources */,
 				0C2D10F920A6F99800A5717C /* rsync_exclude in Resources */,
-				0CB3D49420802EB000DD8AE9 /* Main.storyboard in Resources */,
+				0CB3D49420802EB000DD8AE9,
 				0C34399B209C393E00360036 /* ahq_auth.plist in Resources */,
 				5D4942D9B00FCC7F20303718 /* libil2cpp.def in Resources */,
 				2E8C40EE84D6C731A984129B /* libil2cpp.icalls in Resources */,
@@ -2376,7 +2376,7 @@
 			shellPath = /bin/sh;
 			shellScript = "echo \"Syncing data from $UNITY_IOS_EXPORT_PATH...\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data\"\ncp -Rf \"$UNITY_IOS_EXPORT_PATH/Data\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data\"";
 		};
-		5E5E1116C8A5E5F6053FB33D /* [CP] Embed Pods Frameworks */ = {
+		5E5E1116C8A5E5F6053FB33D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2400,7 +2400,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AHQ/Pods-AHQ-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		639DBBB2C9EF45AC2807EA52 /* [CP] Check Pods Manifest.lock */ = {
+		639DBBB2C9EF45AC2807EA52 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2418,7 +2418,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		66085929D3EFF17684D8B300 /* [CP] Copy Pods Resources */ = {
+		66085929D3EFF17684D8B300 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2614,7 +2614,7 @@
 /* Begin XCBuildConfiguration section */
 		0CB3D49B20802EB200DD8AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C2D10F620A6F99700A5717C /* Unity.xcconfig */;
+			baseConfigurationReference = 0C2D10F620A6F99700A5717C;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -2675,7 +2675,7 @@
 		};
 		0CB3D49C20802EB200DD8AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C2D10F620A6F99700A5717C /* Unity.xcconfig */;
+			baseConfigurationReference = 0C2D10F620A6F99700A5717C;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -2730,7 +2730,7 @@
 		};
 		0CB3D49E20802EB200DD8AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B96DEBC140EEB845E73484EC /* Pods-AHQ.debug.xcconfig */;
+			baseConfigurationReference = B96DEBC140EEB845E73484EC;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2753,7 +2753,7 @@
 		};
 		0CB3D49F20802EB200DD8AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24BF56764A2653595E0FBEFF /* Pods-AHQ.release.xcconfig */;
+			baseConfigurationReference = 24BF56764A2653595E0FBEFF;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2776,7 +2776,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CB3D48420802EB000DD8AE9 /* Build configuration list for PBXProject "AHQ" */ = {
+		0CB3D48420802EB000DD8AE9 /* Build configuration list for PBXProject "Unity-iPhone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CB3D49B20802EB200DD8AE9 /* Debug */,

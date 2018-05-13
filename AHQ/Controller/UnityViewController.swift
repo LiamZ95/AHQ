@@ -21,12 +21,20 @@ class UnityViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
-            AppDelegate.startUnity()
+            appDelegate.startUnity()
+            
+            let viewFrame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
+            let testView = UIView(frame: viewFrame)
+            testView.backgroundColor = UIColor.cyan
+            view.addSubview(testView)
+            print("----------")
+            print("++++++++++")
             
             NotificationCenter.default.addObserver(self, selector: #selector(handleUnityReady), name: NSNotification.Name("UnityReady"), object: nil)
             NotificationCenter.default.addObserver(self, selector: #selector(handleUnityToggleRotation(_:)), name: NSNotification.Name("UnityToggleRotation"), object: nil)
-            
         }
+        
+        self.view.addSubview(rotateSwitch)
     }
     
     @objc func handleUnityReady() {

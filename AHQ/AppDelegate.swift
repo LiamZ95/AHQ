@@ -16,7 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
     
     // for unity
     var application: UIApplication?
+    
     @objc var currentUnityController: UnityAppController!
+    
     var isUnityRunning = false
 
 
@@ -73,28 +75,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
     }
     
     
-    
-    // setting for Unity
-    func startUnity() {
-        if !isUnityRunning {
-            isUnityRunning = true
-            currentUnityController.applicationDidBecomeActive(application!)
-        }
-    }
-    
-    func stopUnity() {
-        if isUnityRunning {
-            currentUnityController.applicationWillResignActive(application!)
-            isUnityRunning = false
-        }
-    }
-    
-    
-    
-    
-    
-    
-    
     // **************************
     // orginally build in methods
     func applicationWillResignActive(_ application: UIApplication) {
@@ -130,6 +110,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         if isUnityRunning {
             currentUnityController.applicationWillTerminate(application)
+        }
+    }
+    
+    func startUnity() {
+        if !isUnityRunning {
+            isUnityRunning = true
+            currentUnityController.applicationDidBecomeActive(application!)
+        }
+    }
+    
+    func stopUnity() {
+        if isUnityRunning {
+            currentUnityController.applicationWillResignActive(application!)
+            isUnityRunning = false
         }
     }
 
